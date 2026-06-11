@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline';" />   
+    <meta name="title" content="POWER4" />
+	  <meta name="description" content="A simple POWER4 game." />
+	  <meta name="theme-color" content="#da3838" />
+	  <meta name="keywords" content="POWER4" />
+	  <meta name="news_keywords" content="POWER4" />
+	  <meta name="distribution" content="Global" />
+	  <meta http-equiv="audience" content="General" />
+	  <meta property="og:title" content="POWER4" />
+	  <meta property="og:type" content="website" />
+	  <meta property="og:description" content="A simple POWER4 game." />
+	  <meta property="og:site_name" content="POWER4" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>POWER4</title>
+    <style>
+      body {
+        padding: 0;
+        margin: 0;
+        display: block;
+        background: #484050;
+        overflow: hidden;
+      }
+
+      canvas {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        margin: auto;
+        image-rendering: pixelated;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="POWER4"></canvas>
+    <script type="module" src="src/gameloop.js"></script>
+  </body>
+</html>

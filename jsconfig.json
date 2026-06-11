@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "lib": ["es2025", "dom"],
+    "module": "nodenext",
+    "target": "es2020",
+    "allowJs": true,
+    "checkJs": true,
+    "rootDir": ".",
+    "erasableSyntaxOnly": false,
+    "strict": false,
+    "noEmit": true,
+    "moduleResolution": "nodenext"
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "include": ["./**/*"]
+}
